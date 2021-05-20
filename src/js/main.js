@@ -100,3 +100,13 @@
 // ## Bonus :
 // ​
 // >- Pour l'énigme, la réponse de l'utilisateur devra être mise en minuscule et les éventuels espace supprimés (exemple : "Un Marron" => "unmarron"). Il faudra aussi trouver une méthode qui permet de vérifier si la bonne réponse est contenue dans la réponse de l'utilisateur (exemple : bonne réponse = "homme", réponse utilisateur = "les HoMmEs" => la réponse est bonne).
+
+import {Boss, Heros, Guerrier, Mage, Archer} from "./classes.js";
+
+let sauron = new Boss ("Sauron", 100, 20);
+let chronos = new Boss ("Chronos", 100, 20);
+let lilith = new Boss ("Lilith", 100, 20);
+console.log(Heros);
+let guerrier = new Guerrier("Guerrier", 100, 20, 4);
+let mage = new Mage ("Mage", 100, 20, 8);
+let archer = new Archer ("Archer", 100, 5);
